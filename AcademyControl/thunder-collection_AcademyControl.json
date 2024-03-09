@@ -1,0 +1,466 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AcademyControl",
+    "dateExported": "2024-03-04T05:22:18.691Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c4515789-2933-4421-8f92-274a391ff7e7",
+            "name": "Teacher",
+            "containerId": "",
+            "created": "2024-03-04T05:17:37.272Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "09a5c5a9-ed9c-47d5-924e-29b815f8edcc",
+            "name": "Student",
+            "containerId": "",
+            "created": "2024-03-04T05:17:37.274Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "0b2a09a1-6d5c-481c-8c71-2e5e60e80ff8",
+            "name": "Public",
+            "containerId": "",
+            "created": "2024-03-04T05:17:37.275Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "874b0f7d-6ad5-4cdc-9845-fbe6604ef1b5",
+            "name": "User",
+            "containerId": "c4515789-2933-4421-8f92-274a391ff7e7",
+            "created": "2024-03-04T05:17:37.276Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "6a5276d8-d270-463a-bbcb-cadbfea129a0",
+            "name": "User",
+            "containerId": "09a5c5a9-ed9c-47d5-924e-29b815f8edcc",
+            "created": "2024-03-04T05:17:37.277Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "73567c4d-3a1d-4e64-aaf9-a44332e481ec",
+            "name": "Courses",
+            "containerId": "c4515789-2933-4421-8f92-274a391ff7e7",
+            "created": "2024-03-04T05:17:37.278Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "71063957-85d7-4cc7-b888-0214ef1634e5",
+            "name": "Courses",
+            "containerId": "09a5c5a9-ed9c-47d5-924e-29b815f8edcc",
+            "created": "2024-03-04T05:17:37.279Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "4fe7f4f2-6e66-4bae-92c7-52d34b8ae291",
+            "name": "Category",
+            "containerId": "c4515789-2933-4421-8f92-274a391ff7e7",
+            "created": "2024-03-04T05:17:37.280Z",
+            "sortNum": 80000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "db2732dc-a7c4-46a9-9602-1bc9ce8471d8",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "874b0f7d-6ad5-4cdc-9845-fbe6604ef1b5",
+            "name": "update",
+            "url": "/user/update/65d8517afa64ec37f2e9e5ba",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-03-04T05:17:37.273Z",
+            "modified": "2024-03-04T05:17:37.273Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTE3YWZhNjRlYzM3ZjJlOWU1YmEiLCJ1c2VybmFtZSI6Imx2ZWxhc3F1ZXoiLCJuYW1lIjoiTHVpcyIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA5NTIxNDgwLCJleHAiOjE3MDk1MzIyODB9.QDVX3vSrS2rQXnnuvxdwfxKt9UlsLA70p6svZKiE4qw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Luis"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9ae9d27d-4cba-4569-90cc-eb831406c443",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "6a5276d8-d270-463a-bbcb-cadbfea129a0",
+            "name": "update",
+            "url": "/user/update/65d8517afa64ec37f2e9e5ba",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-03-04T05:17:37.274Z",
+            "modified": "2024-03-04T05:17:37.274Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTE3YWZhNjRlYzM3ZjJlOWU1YmEiLCJ1c2VybmFtZSI6Imx2ZWxhc3F1ZXoiLCJuYW1lIjoiTHVpcyIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA5NTIxNDgwLCJleHAiOjE3MDk1MzIyODB9.QDVX3vSrS2rQXnnuvxdwfxKt9UlsLA70p6svZKiE4qw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Luis"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "59cbcb81-a9cb-48a6-934c-0baeed2c69c9",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "0b2a09a1-6d5c-481c-8c71-2e5e60e80ff8",
+            "name": "register",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-04T05:17:37.275Z",
+            "modified": "2024-03-04T05:17:37.275Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Luis"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Velasquez"
+                    },
+                    {
+                        "name": "username",
+                        "value": "lvelasquez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "lvelasquez@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "56894536"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Ciudad de Guatemala"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c9bbbfd5-aab5-42c2-a740-bc21f85fbe98",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "874b0f7d-6ad5-4cdc-9845-fbe6604ef1b5",
+            "name": "delete",
+            "url": "/user/delete/65d8517afa64ec37f2e9e5ba",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-03-04T05:17:37.276Z",
+            "modified": "2024-03-04T05:17:37.276Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTE3YWZhNjRlYzM3ZjJlOWU1YmEiLCJ1c2VybmFtZSI6Imx2ZWxhc3F1ZXoiLCJuYW1lIjoiTHVpcyIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA5NTIxNDgwLCJleHAiOjE3MDk1MzIyODB9.QDVX3vSrS2rQXnnuvxdwfxKt9UlsLA70p6svZKiE4qw"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8d1a5452-b4a6-4273-ba2e-a9247e8e6833",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "6a5276d8-d270-463a-bbcb-cadbfea129a0",
+            "name": "delete",
+            "url": "/user/delete/65d8517afa64ec37f2e9e5ba",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-03-04T05:17:37.277Z",
+            "modified": "2024-03-04T05:17:37.277Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1M2I5ODgyZTRiODhkY2FmYTMxOTYiLCJ1c2VybmFtZSI6Imx2ZWxhc3F1ZXoiLCJuYW1lIjoiTHVpcyIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA5NTI3NjY2LCJleHAiOjE3MDk1Mzg0NjZ9.7MkaCDOSyETZL2OhbIog4fISbzIyhB9YE5i4rko0Rco"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0dc659b4-db1b-4060-9d1a-d6a7dba777b5",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "0b2a09a1-6d5c-481c-8c71-2e5e60e80ff8",
+            "name": "login",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-04T05:17:37.278Z",
+            "modified": "2024-03-04T05:17:37.278Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "lvelasquez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3dfc0738-d626-490b-af6c-d891e67affba",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "73567c4d-3a1d-4e64-aaf9-a44332e481ec",
+            "name": "create",
+            "url": "/course/create",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-04T05:17:37.279Z",
+            "modified": "2024-03-04T05:17:37.279Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTBkNWZhNjRlYzM3ZjJlOWU1YjMiLCJ1c2VybmFtZSI6Impub2oiLCJuYW1lIjoiSm9uYXRoYW4iLCJyb2xlIjoiVEVBQ0hFUiIsImlhdCI6MTcwOTUyNDE2MiwiZXhwIjoxNzA5NTM0OTYyfQ.wgrGQuWrzWBZsUUErcSoBMesaYAcuJGaQGngrkJBd6U"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Etica"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Vemos aspectos del dia a dia de una forma que podamos sacar provecho de ella"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e5453a3df78038722d72d9"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "da2f8eaf-ba23-4c32-9325-694bc0f02834",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "73567c4d-3a1d-4e64-aaf9-a44332e481ec",
+            "name": "update",
+            "url": "/course/update/65e546fa515ab1611f096809",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-03-04T05:17:37.280Z",
+            "modified": "2024-03-04T05:17:37.280Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTExMGZhNjRlYzM3ZjJlOWU1YjUiLCJ1c2VybmFtZSI6ImFnYXJjaWEiLCJuYW1lIjoiQXJtYW5kbyIsInJvbGUiOiJURUFDSEVSIiwiaWF0IjoxNzA5NTI1MDY5LCJleHAiOjE3MDk1MzU4Njl9._X4GdvI621fmT13VHKLKsGEoEjXv6FoqDZsaIXYy9MA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "ETICA"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6653a9c9-f48f-489f-a190-13536f100d86",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "73567c4d-3a1d-4e64-aaf9-a44332e481ec",
+            "name": "delete",
+            "url": "/course/delete/65e54a3fbe9856ac28d43693",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-03-04T05:17:37.281Z",
+            "modified": "2024-03-04T05:17:37.281Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTExMGZhNjRlYzM3ZjJlOWU1YjUiLCJ1c2VybmFtZSI6ImFnYXJjaWEiLCJuYW1lIjoiQXJtYW5kbyIsInJvbGUiOiJURUFDSEVSIiwiaWF0IjoxNzA5NTI1NTc1LCJleHAiOjE3MDk1MzYzNzV9._-FsoNctoYtFvukqlnign68Di9LhlS7Wf1s6bxdgPSE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2c775177-afdc-46f1-9c28-2cb59952e697",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "4fe7f4f2-6e66-4bae-92c7-52d34b8ae291",
+            "name": "create",
+            "url": "/category/create",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-03-04T05:17:37.282Z",
+            "modified": "2024-03-04T05:17:37.282Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTBkNWZhNjRlYzM3ZjJlOWU1YjMiLCJ1c2VybmFtZSI6Impub2oiLCJuYW1lIjoiSm9uYXRoYW4iLCJyb2xlIjoiVEVBQ0hFUiIsImlhdCI6MTcwOTUyNDE2MiwiZXhwIjoxNzA5NTM0OTYyfQ.wgrGQuWrzWBZsUUErcSoBMesaYAcuJGaQGngrkJBd6U"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Filosofia"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Filosifia"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8fc4ffb-3c26-4bbf-b768-eef33d4d236f",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "4fe7f4f2-6e66-4bae-92c7-52d34b8ae291",
+            "name": "update",
+            "url": "/category/update/65e5453a3df78038722d72d9",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2024-03-04T05:17:37.283Z",
+            "modified": "2024-03-04T05:17:37.283Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTBkNWZhNjRlYzM3ZjJlOWU1YjMiLCJ1c2VybmFtZSI6Impub2oiLCJuYW1lIjoiSm9uYXRoYW4iLCJyb2xlIjoiVEVBQ0hFUiIsImlhdCI6MTcwOTUyNDE2MiwiZXhwIjoxNzA5NTM0OTYyfQ.wgrGQuWrzWBZsUUErcSoBMesaYAcuJGaQGngrkJBd6U"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "description",
+                        "value": "Vemos la vida de una manera diferente"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a9859a99-232d-4d2c-aa2e-01328d683f49",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "4fe7f4f2-6e66-4bae-92c7-52d34b8ae291",
+            "name": "delete",
+            "url": "/category/delete/65e5462a22e1080cc3556068",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2024-03-04T05:17:37.284Z",
+            "modified": "2024-03-04T05:17:37.284Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTBkNWZhNjRlYzM3ZjJlOWU1YjMiLCJ1c2VybmFtZSI6Impub2oiLCJuYW1lIjoiSm9uYXRoYW4iLCJyb2xlIjoiVEVBQ0hFUiIsImlhdCI6MTcwOTUyNDE2MiwiZXhwIjoxNzA5NTM0OTYyfQ.wgrGQuWrzWBZsUUErcSoBMesaYAcuJGaQGngrkJBd6U"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fb1f3ea0-8cf9-4146-b824-f6985104766d",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "4fe7f4f2-6e66-4bae-92c7-52d34b8ae291",
+            "name": "list",
+            "url": "/category/list",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-03-04T05:17:37.285Z",
+            "modified": "2024-03-04T05:17:37.285Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4NTBkNWZhNjRlYzM3ZjJlOWU1YjMiLCJ1c2VybmFtZSI6Impub2oiLCJuYW1lIjoiSm9uYXRoYW4iLCJyb2xlIjoiVEVBQ0hFUiIsImlhdCI6MTcwOTUyNDE2MiwiZXhwIjoxNzA5NTM0OTYyfQ.wgrGQuWrzWBZsUUErcSoBMesaYAcuJGaQGngrkJBd6U"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7b8f78b0-6866-4da1-b02e-ae9793175ace",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "71063957-85d7-4cc7-b888-0214ef1634e5",
+            "name": "Assignament",
+            "url": "/user/assign/65e546cf515ab1611f096806",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-03-04T05:17:37.286Z",
+            "modified": "2024-03-04T05:17:37.286Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1NTY3OTU1YjEwYzZjZGRmZDZhNDkiLCJ1c2VybmFtZSI6Imx2ZWxhc3F1ZXoiLCJuYW1lIjoiTHVpcyIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA5NTI4NzAwLCJleHAiOjE3MDk1Mzk1MDB9.hc4lSQRd3RpM9qaURsENbCutdLd-Ck2qcjLJoL5GQDA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f4082bcf-1400-48f2-a0cf-d1db0153879b",
+            "colId": "5fcdca3f-ca3d-476f-8203-26b30e1cdd71",
+            "containerId": "71063957-85d7-4cc7-b888-0214ef1634e5",
+            "name": "My courses",
+            "url": "/user/list",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2024-03-04T05:17:37.287Z",
+            "modified": "2024-03-04T05:17:37.287Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1NTY3OTU1YjEwYzZjZGRmZDZhNDkiLCJ1c2VybmFtZSI6Imx2ZWxhc3F1ZXoiLCJuYW1lIjoiTHVpcyIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA5NTI4NzAwLCJleHAiOjE3MDk1Mzk1MDB9.hc4lSQRd3RpM9qaURsENbCutdLd-Ck2qcjLJoL5GQDA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656"
+        }
+    }
+}
